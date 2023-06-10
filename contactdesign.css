@@ -1,0 +1,88 @@
+/* Styles for the navbar */
+.navbar {
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  color: #000000;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #000000;
+}
+.navbar-brand .img {
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+/* Styles for the contact section */
+.contactinfo {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+.contactinfo .header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contactinfo h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contactinfo p {
+  font-size: 18px;
+  color: #666666;
+}
+
+.contactinfo .form {
+  margin-top: 30px;
+}
+
+.contactinfo input[type="text"],
+.contactinfo input[type="email"],
+.contactinfo textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+}
+
+.contactinfo textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.contactinfo .btn-primary {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.alert {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.alert-warning {
+  background-color: #ffeaa7;
+  color: #ff851b;
+  border: 1px solid #ff851b;
+  border-radius: 5px;
+}
+
+.alert .close {
+  cursor: pointer;
+}
